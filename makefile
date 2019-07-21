@@ -2,12 +2,12 @@ default: pdf
 
 .PHONY: pdf
 pdf: resume.tex
-	cd build && pdflatex ../$^
+	pdflatex $^
 
 .PHONY: dvi
 dvi: resume.tex
-	cd build && pdflatex ../$^
+	latex $^
 
 .PHONY: clean
 clean:
-	rm -rf *.aux *.log *.gz *.fls *.fdb_latexmk *.dvi *.pdf build/*
+	rm -rf *.aux *.log *.gz *.fls *.fdb_latexmk *.dvi *.pdf
