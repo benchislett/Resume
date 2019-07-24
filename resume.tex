@@ -3,6 +3,10 @@
 % \usepackage{multicol}
 \usepackage{blindtext}
 \usepackage{titlesec}
+\usepackage{titling}
+
+\usepackage[left=0.5in,top=0.25in,right=0.5in,bottom=0.35in]{geometry}
+
 
 \titleformat{\section}
   {\normalfont\large\bfseries}
@@ -16,24 +20,42 @@
   {1em}
   {\baselineskip}
 
-\author{Ben Chislett}
+\title{Software Developer}
+\author{Benjamin Chislett}
+\date{}
+
+\preauthor{\begin{center}\Huge}
+\postauthor{\par\end{center}}
+
+\pretitle{\begin{center}\huge}
+\posttitle{\par\end{center}}
+
+\predate{}
+\postdate{}
 
 \begin{document}
 
+\begin{center}
+  \Huge\theauthor
+  \par
+  \huge\thetitle
+  \par
+\end{center}
+
 \begin{section}{Experience}
-\blindtext
+\blindlist{itemize}[2]
 \end{section}
 
 \begin{section}{Projects}
-\blindtext
+\blindlist{itemize}[2]
 \end{section}
 
 \begin{section}{Education}
-\blindtext
+\blindlist{itemize}[2]
 \end{section}
 
 \begin{section}{Skills}
-\blindtext
+\blindlist{itemize}[2]
 \end{section}
 
 \end{document}
