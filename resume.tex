@@ -5,8 +5,11 @@
 \usepackage{titlesec}
 \usepackage{titling}
 
-\usepackage[left=0.5in,top=0.25in,right=0.5in,bottom=0.35in]{geometry}
+\usepackage{geometry}
+\geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
 
+\leftskip=\the\parindent
+\setlength{\parindent}{0pt}
 
 \titleformat{\section}
   {\normalfont\large\bfseries}
@@ -22,7 +25,7 @@
 
 \newcommand{\comment}[1]{}
 
-\title{Software Developer}
+\title{Computer Scientist}
 \author{Benjamin Chislett}
 \date{}
 
@@ -37,11 +40,13 @@
 
 \begin{section}{Experience}
 \textbf{Mysa Smart Thermostats - Software Developer}
+\hfill
 \textit{September 2018 - July 2019}
 
-Full stack software development in JavaScript/TypeScript:
-
-Experience with React, Jest, Serverless, AWS SDK, Babel/Webpack\\
+Full stack software development in JavaScript/TypeScript\\
+Maintained a full stack application for browsing and updating an AWS backend\\
+Developed a query language for interacting with AWS through object-oriented abstractions\\
+Experience with React, Jest, Serverless, AWS SDK, Babel, Webpack\\
 
 \textbf{Tim Hortons - Baker}
 \textit{November 2017 - September 2018}
@@ -77,14 +82,5 @@ Part-time at 30+ hours/week, and full-time during the summer
 \textit{Early French Immersion, Graduated June 2019}
 \end{section}
 
-\begin{section}{Skills}
-\textbf{Workflow and Tools}
-
-\textit{Git, CircleCI, Jira/Confluence, Loggly, NPM, ESLint, Trello}\\
-
-\textbf{Frameworks}
-
-\textit{React/Redux, Serverless, SFML, Cairographics}
-\end{section}
-
 \end{document}
+
