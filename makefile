@@ -10,4 +10,4 @@ dvi: resume.tex
 
 .PHONY: clean
 clean:
-	rm -rf *.aux *.log *.gz *.fls *.fdb_latexmk *.dvi *.pdf
+	rm -rf *.aux *.log *.gz *.fls *.fdb_latexmk *.dvi *.out *.pdf
