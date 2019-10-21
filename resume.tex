@@ -5,9 +5,15 @@
 \usepackage{hyperref}
 \usepackage{titlesec}
 \usepackage{titling}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\setlist[itemize]{noitemsep,topsep=0pt,itemindent=0em}
 
 \usepackage{geometry}
-\geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
+\geometry{left=1in, top=1in, right=1in, bottom=1in, footskip=.5cm}
+
+\usepackage{xspace}
+\newcommand{\vbar}{\textbar\xspace}
 
 \leftskip=\the\parindent
 \setlength{\parindent}{0pt}
@@ -26,7 +32,9 @@
 
 \newcommand{\comment}[1]{}
 
-\title{Computer Scientist}
+\pagestyle{empty}
+
+\title{1295 Military Trail, Toronto, ON, M1C 1A4}
 \author{Benjamin Chislett}
 \date{}
 
@@ -35,77 +43,73 @@
 \begin{center}
   \Huge\theauthor
   \par
-  \huge\thetitle
+  \large\thetitle
+  \par
+  \large{benjamin.chislett@mail.utoronto.ca}
   \par
   \large\url{https://github.com/benchislett}
 \end{center}
 
-\begin{section}{Skills}
+\begin{section}{Profile}
 
-\begin{multicols}{2}
-\textbf{Machine Learning}
-  \textit{
-  \begin{itemize}
-  \item Variational Autoencoders
-  \item Convolutional Neural Networks
-  \item Recurrent Neural Networks
-  \item Generative Adversarial Networks
-  \item Evolutionary Algorithms
-  \end{itemize}
-  }
+First year Computer Science student with a thirst for knowledge and a passion for learning.
+Skilled programmer with experience in full-stack development, research, and machine learning.
+\\
 
-\textbf{Frameworks}
-  \textit{
-  \begin{itemize}
-  \item PyTorch
-  \item Tensorflow
-  \item React
-  \item CUDA
-  \item AWS-SDK
-  \end{itemize}
-  }
-\end{multicols}
+\textbf{Key Competencies:} AWS \vbar node.js \vbar npm \vbar Python \vbar C/C++ \vbar GPU Computing \vbar Agile \vbar Problem-Solving \vbar Work ethic \vbar Teamwork \vbar Communication \vbar Adaptability \vbar Organization
 
 \end{section}
 
 \begin{section}{Experience}
 
-\textbf{Okinawa Institute of Science and Technology - Research Intern}
+\textbf{Research Intern}
 \hfill
-\textit{July 2019 - September 2019}
+\textit{Jul 2019 - Sep 2019}\\*
+\textit{Okinawa Institute of Science and Technology, Okinawa Prefecture, Japan}
 
-Maintained GPUE: a CUDA/C++ application for simulating Bose-Einstein condensates\\
-Authored GPUE.jl: a Julia-GPU implementation of GPUE\\
+\begin{itemize}
+  \item Maintained GPUE: a CUDA/C++ application for simulating Bose-Einstein condensates
+  \item Authored GPUE.jl: a Julia-GPU implementation of GPUE\\
+\end{itemize}
 
-\textbf{Mysa Smart Thermostats - Software Developer}
+\textbf{Software Developer}
 \hfill
-\textit{September 2018 - July 2019}
+\textit{Sep 2018 - Jul 2019}\\*
+\textit{Mysa Smart Thermostats, St. John's, NL}
+\begin{itemize}
+  \item Maintained a full stack javascript application for browsing and updating an AWS backend
+  \item Developed a query library for interacting with AWS through object-oriented abstractions
+\end{itemize}
 
-Maintained a full stack javascript application for browsing and updating an AWS backend\\
-Developed a query language for interacting with AWS through object-oriented abstractions
 \end{section}
 
 \begin{section}{Projects}
-\textbf{Convolutional Autoencoders for Image Compression}\\*
-Developed a novel image compression algorithm through convolutional variational autoencoders\\*
+\textbf{Convolutional Autoencoders for Image Compression}
+\begin{itemize}
+  \item Researched machine-learning and computer vision techniques
+  \item Developed a novel image compression algorithm using convolutional autoencoders and data compression\\
+\end{itemize}
 
-\textbf{Evolutionary Algorithms for Polygonal Approximation of Images}\\*
-Implemented hill-climbing and a genetic algorithm for metaheuristic optimization of image approximation with a fixed number of semi-transparent polygons\\
+\textbf{Evolutionary Algorithms for Polygonal Approximation of Images}
+\begin{itemize}
+  \item Implemented meta-heuristic optimization of image approximation with hill-climbing genetic algorithms
+  \item Used low-level image rendering APIs to create live video output over time\\
+\end{itemize}
+
+\textbf{Time Management Application Integrated With Trello}
+\begin{itemize}
+  \item Developed Pomorello, an application for time management and efficiency analytics, available natively in Trello
+  \item Implemented a self-contained backend and simple analytics engine entirely within Trello through the iFrame callback API
+\end{itemize}
 
 \end{section}
 
 \begin{section}{Education}
-\textbf{University of Toronto Scarborough}
+\textbf{Honours Bachelor of Science, Computer Science}
 \hfill
-\textit{2019-Present}
+\textit{Sep 2019 - Present}\\*
+\textit{University of Toronto Scarborough, Scarborough, ON}
 
-First year student enrolled in Honours Computer Science Co-op, full-time\\
-
-\textbf{Memorial University of Newfoundland}
-\hfill
-\textit{2018-19}
-
-Part-time student through the Concurrent Studies program, 4.0 GPA over 3 courses\\
 \end{section}
 
 \end{document}
