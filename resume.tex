@@ -1,7 +1,6 @@
 \documentclass[11pt, letterpaper]{article}
 
 \usepackage{multicol}
-\usepackage{blindtext}
 \usepackage{hyperref}
 \usepackage{titlesec}
 \usepackage{titling}
@@ -43,8 +42,6 @@
 \begin{center}
   \Huge\theauthor
   \par
-  \large\thetitle
-  \par
   \large{benjamin.chislett@mail.utoronto.ca}
   \par
   \large\url{https://github.com/benchislett}
@@ -52,32 +49,35 @@
 
 \begin{section}{Profile}
 Computer Science student with a thirst for knowledge and a passion for learning.
-Skilled programmer with experience in parallel computing, AI, web development, research, and computer graphics.
+Skilled programmer with experience in parallel computing, AI, full-stack development, research, and computer graphics.
 \\
 
-\textbf{Key Competencies:} C++/C \vbar JavaScript \vbar Python \vbar AWS \vbar GPU Computing \vbar Machine Learning  Agile \vbar Problem Solving \vbar Work Ethic \vbar Adaptability \vbar Communication \vbar Teamwork \vbar Organization
+\textbf{Key Skills:} JS/TS \vbar C++ \vbar Python \vbar AWS \vbar GPU Computing \& HPC \vbar Machine Learning \vbar Agile
 
 \end{section}
 
 \begin{section}{Experience}
 
+\textbf{Software Developer}
+\hfill
+\textit{Sep 2018 - Jul 2019, May 2020 - Dec 2020}\\*
+\textit{Mysa Smart Thermostats, St. John's, NL}
+\begin{itemize}
+  \item Maintained and rewrote a full stack typescript application used to investigate user accounts distributed over an AWS backend
+  \item Authored a suite of libraries for interacting with AWS at multiple tiers of abstraction
+  \item Developed various new features for a react-native mobile application
+  \item Architected a data pipeline used to create a data lake and perform analytics
+  \item Led a small team of developers to create an IoT-based device simulator \\
+\end{itemize}
+
 \textbf{Research Intern}
 \hfill
 \textit{Jul 2019 - Sep 2019}\\*
 \textit{Okinawa Institute of Science and Technology, Okinawa Prefecture, Japan}
-
 \begin{itemize}
+  \item Researched the Compressive Split-Step Fourier Method for efficiently solving the Gross-Pitaevskii equation
   \item Maintained GPUE: a CUDA/C++ application for simulating Bose-Einstein condensates
-  \item Authored GPUE.jl: a Julia-GPU implementation of GPUE\\
-\end{itemize}
-
-\textbf{Software Developer}
-\hfill
-\textit{Sep 2018 - Jul 2019}\\*
-\textit{Mysa Smart Thermostats, St. John's, NL}
-\begin{itemize}
-  \item Maintained a full stack javascript application for browsing and updating an AWS backend
-  \item Developed a query library for interacting with AWS through object-oriented abstractions
+  \item Authored GPUE.jl: a JuliaLang-GPU implementation of GPUE
 \end{itemize}
 
 \end{section}
@@ -85,19 +85,19 @@ Skilled programmer with experience in parallel computing, AI, web development, r
 \begin{section}{Projects}
 \textbf{GPU-Accelerated Ray Tracer}
 \begin{itemize}
-  \item Designed and implemented an accelerated path tracer in CUDA with support for triangle meshes, materials, textures, lighting, and more\\
-\end{itemize}
-
-\textbf{Time Management Application Integrated with Trello}
-\begin{itemize}
-  \item Developed Pomorello, an application for time management and efficiency analytics, available natively in Trello
-  \item Implemented a self-contained backend and simple analytics engine entirely within Trello through the iFrame callback API\\
+  \item Read over 100 papers on real-time ray tracing on the GPU
+  \item Designed and implemented an accelerated path tracer in CUDA with support for arbitrary meshes, BSDF materials, various light sources, and more\\
 \end{itemize}
 
 \textbf{Convolutional Autoencoders for Image Compression}
 \begin{itemize}
   \item Researched machine-learning and computer vision techniques
-  \item Developed a novel image compression algorithm using convolutional autoencoders and data compression
+  \item Developed a novel image compression algorithm using convolutional autoencoders and data compression\\
+\end{itemize}
+
+\textbf{Chess Engine}
+\begin{itemize}
+  \item Developed and optimized a high-performance chess engine in C++
 \end{itemize}
 
 \end{section}
@@ -106,7 +106,7 @@ Skilled programmer with experience in parallel computing, AI, web development, r
 \textbf{Honours Bachelor of Science, Computer Science}
 \hfill
 \textit{Sep 2019 - Present}\\*
-\textit{University of Toronto Scarborough, Scarborough, ON}
+\textit{University of Toronto, Scarborough, ON}
 \begin{itemize}
   \item Cumulative GPA: 4.00
 \end{itemize}
