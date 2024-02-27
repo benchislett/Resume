@@ -4,6 +4,8 @@ default: resume
 resume: resume.tex
 	pdflatex $^
 
+all: resume
+
 .PHONY: clean
 clean:
 	rm -rf *.aux *.log *.gz *.fls *.fdb_latexmk *.dvi *.out
